@@ -1,0 +1,9 @@
+[submodule "learning-javascript"]
+	path = learning-javascript
+	url = https://github.com/rahul-7906/Learning-JavaScript-.git
+[submodule "js-mini-projects"]
+	path = js-mini-projects
+	url = https://github.com/rahul-7906/js-mini-projects.git
+[submodule "learning-js-projects"]
+	path = learning-js-projects
+	url = https://github.com/rahul-7906/Learning-JS-with-projects.git
