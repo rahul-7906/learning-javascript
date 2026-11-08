@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #ffffff;
+  width: 90%;
+  max-width: 360px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.field {
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4a6cf7;
+}
+
+/* Your JS can add these classes to the input */
+input.invalid {
+  border-color: #e53935;
+}
+
+input.valid {
+  border-color: #2e9e4f;
+}
+
+/* Error text under each input (empty until your JS fills it) */
+.error {
+  display: block;
+  margin-top: 5px;
+  font-size: 13px;
+  color: #e53935;
+  min-height: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 11px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #4a6cf7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3857d8;
+}
+
+/* Final success / failure message below the button */
+.message {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  min-height: 18px;
+}
+
+.message.success {
+  color: #2e9e4f;
+}
+
+.message.fail {
+  color: #e53935;
+}
